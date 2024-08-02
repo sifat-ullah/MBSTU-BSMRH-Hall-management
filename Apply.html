@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for getting seat</title>
+    <link rel="stylesheet" href="apply.css">
+</head>
+
+<body>
+    <header>
+        <h1 align="center">Apply Here For Getting Seat</h1>
+        <div>
+            
+            <h2><p>Note down:</p> You should fill the form with correct information for compliting your apply.
+Do not give the wrong information.If there  have any wrong information.</h2>
+        
+        </div>
+    </header>
+    <br>
+    <main>
+        <form action="/action.php">
+            <p>Student name: </p>
+            <input type="text" placeholder="Enter your name">
+            <p>Student ID</p>
+            <input type="text" placeholder="Enter your ID">
+            <p>Department Name:</p>
+            <select name="Department">
+                <option value="ICT">ICT</option>
+                <option value="CSE">CSE</option>
+                <option value="TE">TE</option>
+                <option value="ESRM">ESRM</option>
+                <option value="FTNS">FTNS</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <p >Father's name:</p>
+            <input type="text" placeholder="Enter your father's name">
+            <p>Mother's name:</p>
+            <input type="text" placeholder="Enter your mather's name">
+            <p>Yearly income:</p>
+            <input type="text" placeholder="Enter amount">
+            <br>
+            <br>
+            <br>
+            <p>Year:</p>
+            <input type="text" placeholder="enter year">
+            <p>Semester:</p>
+            <input type="text" placeholder="enter semester">
+            <p>Average CGPA:</p>
+            <input type="number" placeholder="enter your CGPA">
+            <br><br><br>
+            <p>Select halls to apply </p><br>
+            <level for="101">
+                <input type="checkbox" value="BSMRH" name="hall" id="101">BSMRH <br>
+            </level>
+            <level for="102">
+                <input type="checkbox" value="JAMH" name="hall" id="102">JAMH <br>
+            </level>
+            <level for="'103">
+                <input type="checkbox" value="SRH" name="hall" id="103">SRH <br>
+            </level>
+
+            <br><br><br>
+            <p>enter your gender:</p>
+            <level for="101">
+                <input type="radio" value="male" name="class" id="101">male
+            </level>
+
+            <level for="102">
+                <input type="radio" value="male" name="class" id="102">Female
+            </level>
+            <br><br>
+            <p>Feedback section:</p><br>
+            <level for="feedback">
+                <textarea align="right" name="feedback" placeholder="Please give your valuable feedback here" rows=3
+                    cols=50>
+            </textarea>
+            </level>
+            <br>
+             <level for="submit" >
+                <p>Submit:</p> <input type="submit" value="submit">
+            </level>
+        <level for="reset">
+           <p>Reset:</p> <input type="reset" value="Reset">
+        </level>
+        </form>
+    </main>
+    <br><br>
+
+
+
+</body>
+
+</html>

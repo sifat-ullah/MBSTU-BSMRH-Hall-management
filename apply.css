@@ -1,0 +1,25 @@
+level{
+    color:red;   
+}
+h1{
+    color:palevioletred;
+    background-color: rgb(156, 255, 222);
+}
+h2{
+    color:#9e9c08;
+    background-color: rgb(4, 31, 54);
+}
+p{
+    color:#9e9c08;
+}
+body{
+    background-color:#004643;
+}
+
+form{
+    display:grid;
+    
+    justify-content: space-evenly;
+    
+
+}
